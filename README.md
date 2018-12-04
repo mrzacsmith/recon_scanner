@@ -3,7 +3,13 @@
 ### Packages needed:
 * tld 
 * os
-* 
+* for main:
+* * general
+* * domain_name
+* * ip_address
+* * nmap
+* * robots_txt
+* * whois
 
 
 ### Use sudo pip3 install tld 
