@@ -10,4 +10,4 @@ def get_ip_address(url):
     return results[marker:].splitlines()[0]
     # note colon following marker, without will display only first number of the IP
     
-print(get_ip_address('google.com'))
+# print(get_ip_address('google.com'))

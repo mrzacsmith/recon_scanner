@@ -12,4 +12,4 @@ def get_robots_txt(url):
     data = io.TextIOWrapper(request, encoding = 'utf-8')
     return data.read()
     
-print(get_robots_txt('https://www.reddit.com'))
+# print(get_robots_txt('https://www.reddit.com'))

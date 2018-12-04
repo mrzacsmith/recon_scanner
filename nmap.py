@@ -8,6 +8,6 @@ def get_nmap(options, ip):
     
     return results
 
-print(get_nmap('-F', '74.125.124.139'))
+# print(get_nmap('-F', '74.125.124.139'))
 
 
