@@ -7,6 +7,9 @@ from whois import *
 
 ROOT_DIR = "companies"
 
+company = "Facebook"
+company_url = "https://www.facebook.com"
+
 create_dir(ROOT_DIR)
 
 def gather_info(name, url):
@@ -28,6 +31,6 @@ def create_report(name, url, domain_name, nmap, robots_txt, whois):
     write_file(project_dir + "/robots.txt", robots_txt)
     write_file(project_dir + "/whois.txt", whois)
     
-gather_info("google", "https://www.google.com/")
+gather_info(company, company_url)
 
 print("Scan is completed")
